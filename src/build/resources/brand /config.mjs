@@ -43,7 +43,7 @@ export const texts = {
       </li>
       <li>
         Az adatokat küldd az alábbi email címre
-        <a href="mailto:zegkljan{'@'}gmail.com">zegkljan{'@'}gmail.com</a>
+        <a href="mailto:szucskornelMHS{'@'}gmail.com">szucskornelMHS{'@'}gmail.com</a>
         a Tárgyban <em> írd, hogy MHS vívórangsor </em>.
       </li>
       <li>
@@ -89,7 +89,7 @@ export const texts = {
     }
   },
   'en-US': {
-    appName: 'Unofficial czech HEMA ladder',
+    appName: 'Unofficial Hungarian HEMA ladder',
     appDescription: undefined,
     supplyResultsText: `If the ladder does not include results of a tournament you attended, please let me know like this:
     <ol>
@@ -122,8 +122,8 @@ export const texts = {
       </li>
       <li>
         Send the data to
-        <a href="mailto:zegkljan{'@'}gmail.com">zegkljan{'@'}gmail.com</a> and state
-        <em>HEMA ladder data</em> in the subject.
+        <a href="mailto:szucskornelMHS{'@'}gmail.com">szucskornelMHS{'@'}gmail.com</a> and state
+        <em>MHS Ranking</em> in the subject.
       </li>
       <li>
         Wait untill I incorporate the data, possibly react to my supplementary questions.
@@ -134,7 +134,7 @@ export const texts = {
     <li>Divisions are: long sword, rapier and dagger, saber...</li>
     <li>Categories are: men/open, women, girls under 10 years...</li>
     <li>
-      We record only fencers representing Czech clubs, or Czech fencers competing without any club.
+      We record only fencers representing Hungarian clubs, or Hungarian fencers competing without any club.
     </li>
     <li>
       The number in the address of the "profile" page on HEMA Ratings of the given person.<br />
