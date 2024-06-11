@@ -1,1 +1,190 @@
+{
+    "2037": {
+      "name": "Vorschlag-RARE II",
+      "date": "2024-04-27", 
+      "country": "hu", 
+      "championship": true, 
+      "competitions": [ 
+        {
+          "division": "ls", 
+          "category": "open", 
+          "no_participants": 35, 
+          "results_link": "https://hemaratings.com/events/details/2037/", 
+          "results": [
+            {"fencer_id": "10559", "rank": 2 }, 
+            {"fencer_id": "2759", "rank": 4 }, 
+            {"fencer_id": "5821", "rank": 5 },           
+            {"fencer_id": "10062", "rank": 5 }, 
+            {"fencer_id": "10767", "rank": 5 }, 
+            {"fencer_id": "2283", "rank": 9 },
+            {"fencer_id": "5310", "rank": 9 },
+            {"fencer_id": "9373", "rank": 9 }, 
+            {"fencer_id": "11229", "rank": 9 },  
+            {"fencer_id": "6636", "rank": 9 }, 
+            {"fencer_id": "14038", "rank": 9 }, 
+            {"fencer_id": "10061", "rank": 17 },
+            {"fencer_id": "9594", "rank": 17 },
+            {"fencer_id": "14035", "rank": 17 },
+            {"fencer_id": "10071", "rank": 17 },
+            {"fencer_id": "11943", "rank": 17 },
+            {"fencer_id": "14036", "rank": 17 },
+            {"fencer_id": "14037", "rank": 17 },
+            {"fencer_id": "10072", "rank": 17 },
+            {"fencer_id": "10065", "rank": 27 },
+            {"fencer_id": "11941", "rank": 27 },
+            {"fencer_id": "5307", "rank": 27 },
+            {"fencer_id": "10557", "rank": 27 },
+            {"fencer_id": "10067", "rank": 27 },
+            {"fencer_id": "10064", "rank": 27 },
+            {"fencer_id": "8557", "rank": 27 }
+          ]
+        
+        },
+        {
+          "division": "ls", 
+          "category": "women's", 
+          "no_participants": 7, 
+          "results_link": "https://hemaratings.com/events/details/2037/", 
+          "results": [
+            {"fencer_id": "2283", "rank": 2 }, 
+            {"fencer_id": "5307", "rank": 3 }, 
+            {"fencer_id": "9358", "rank": 4 },           
+            {"fencer_id": "14039", "rank": 5 }, 
+            {"fencer_id": "11941", "rank": 5 }, 
+            {"fencer_id": "10065", "rank": 5 }
+          ]
+        
+        }
+      ]
+    },
+    "1998": {
+      "name": "Fechtberg 2024",
+      "date": "2024-02-17", 
+      "country": "pl", 
+      "championship": false, 
+      "competitions": [ 
+        {
+          "division": "ls", 
+          "category": "open", 
+          "no_participants": 55, 
+          "results_link": "https://hemaratings.com/events/details/1998/", 
+          "results": [
+            {"fencer_id": "13634", "rank": 49 }, 
+            {"fencer_id": "13635", "rank": 33 }, 
+            {"fencer_id": "2791", "rank": 33 }, 
+            {"fencer_id": "9594", "rank": 33 } 
+          ]
+         }
+      ]
+    },
+    "2005": {
+      "name": "Žilinský Kumšt VII",
+      "date": "2024-03-09", 
+      "country": "sl", 
+      "championship": false, 
+      "competitions": [ 
+        {
+          "division": "ls", 
+          "category": "open", 
+          "no_participants": 72, 
+          "results_link": "https://hemaratings.com/events/details/2005/", 
+          "results": [
+            {"fencer_id": "9346", "rank": 9 }, 
+            {"fencer_id": "5827", "rank": 33 }, 
+            {"fencer_id": "10061", "rank": 49 }
+          ]
+         },
+         {
+          "division": "ls", 
+          "category": "w", 
+          "no_participants": 12, 
+          "results_link": "https://hemaratings.com/events/details/2005/", 
+          "results": [
+            {"fencer_id": "2283", "rank": 5 } 
+          ]
+         }
+      ]
+    },
+    "2036": {
+      "name": "Brünner Stich",
+      "date": "2024-04-20", 
+      "country": "cz", 
+      "championship": false, 
+      "competitions": [ 
+        {
+          "division": "ls", 
+          "category": "open", 
+          "no_participants": 51, 
+          "results_link": "https://hemaratings.com/events/details/2036/", 
+          "results": [
+            {"fencer_id": "9346", "rank": 17 }, 
+            {"fencer_id": "9594", "rank": 17 }
+          ]
+         }
+      ]
+    },
+    "2051": {
+    "name": "London HEMA Open",
+    "date": "2024-05-04", 
+    "country": "uk", 
+    "championship": false, 
+    "competitions": [ 
+      {
+        "division": "ls", 
+        "category": "open", 
+        "no_participants": 57, 
+        "results_link": "https://hemaratings.com/events/details/2051/", 
+        "results": [
+          {"fencer_id": "2758", "rank": 2 }
+        ]
+       }
+    ]
+    },
+    "2059": {
+      "name": "Bratislava Fecht 6",
+      "date": "2024-05-18", 
+      "country": "sl", 
+      "championship": false, 
+      "competitions": [ 
+        {
+          "subtitle": "advanced",
+          "division": "ls", 
+          "category": "open", 
+          "no_participants": 24, 
+          "results_link": "https://hemaratings.com/events/details/2059/", 
+          "results": [
+            {"fencer_id": "9346", "rank": 9 }, 
+            {"fencer_id": "5310", "rank": 17 }
+                      ]
+        },
+        {
+          "division": "ls", 
+          "category": "women's", 
+          "no_participants": 7, 
+          "results_link": "https://hemaratings.com/events/details/2059/", 
+          "results": [
+            {"fencer_id": "2292", "rank": 3 }, 
+            {"fencer_id": "2283", "rank": 5 }, 
+            {"fencer_id": "5307", "rank": 5 },
+            {"fencer_id": "11941", "rank": 5 }
+          ]
+        },
+        {
+          "division": "ls", 
+          "category": "open", 
+          "no_participants": 40, 
+          "results_link": "https://hemaratings.com/events/details/2059/", 
+          "results": [
+            {"fencer_id": "13635", "rank": 9 }, 
+            {"fencer_id": "2280", "rank": 9 },
+            {"fencer_id": "9373", "rank": 9 },
+            {"fencer_id": "8557", "rank": 9 },
+            {"fencer_id": "6636", "rank": 17 },
+            {"fencer_id": "9343", "rank": 17 },
+            {"fencer_id": "10797", "rank": 17 }
+          ]
+        }
+      ]
+    }
+}
 
