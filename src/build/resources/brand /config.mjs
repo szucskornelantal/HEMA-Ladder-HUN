@@ -1,63 +1,61 @@
 export const texts = {
-  'cs-CZ': {
-    appName: 'Neoficiální český HEMA žebříček',
+  'hu-HU': {
+    appName: 'Magyar HEMA vívórangsor',
     appDescription: undefined,
-    supplyResultsText: `Pokud v žebříčku nejsou zahrnuty výsledky turnaje, kde jste byli, dejte prosím vědět, a to následujícím způsobem:
+    supplyResultsText: `Ha a rendszerben nem szerepel egy verseny, amin részt vettél, kérlek az alábbi módon tudasd:
     <ol>
       <li>
-        Připravte si data:
+        Adatok előkészítése:
         <ul>
-          <li>Název turnaje</li>
-          <li>Datum konání<sup>1</sup></li>
-          <li>Země, ve které se turnaj odehrával</li>
-          <li>Stránka či FB událost turnaje, existuje-li</li>
-          <li>Stránka turnaje na HEMA Ratings, existuje-li</li>
+          <li>Verseny neve</li>
+          <li>Verseny időpontja<sup>1</sup></li>
+          <li>Rendező ország</li>
+          <li>Ha van, akkor a verseny Facebook eseménye-li</li>
+          <li>Ha van, akkor a verseny Hemaratings oldala-li</li>
           <li>
-            Výsledky pro každou divizi<sup>2</sup> a kategorii<sup
+            Az eredmények minden kategóriában<sup>2</sup> és fegyvernemben<sup
               >3</sup
             >
-            sestávající se z
+           az imént látható módon
             <ul>
-              <li>Celkový počet účastníků v dané divizi a kategorii</li>
+              <li>Az összes résztvevő kategóriánként és fegyvernemenként</li>
               <li>
-                Seznam výsledků lidí, které chcete doplnit<sup>4</sup>.
-                Pro každého člověka uveďte
+               A vívók és az eredmények, amiket hozzá szeretnél adni az adatbázishoz<sup>4</sup>.
+                Minden vívónak szükséges:
                 <ul>
-                  <li>Jméno a příjmení</li>
+                  <li>Teljes név</li>
                   <li>
-                    Konečná příčka, na jaké se umístil(a) na konci
-                    turnaje
+                    Végső helyezés a tornán (az első 4-en kívül a legmagasabb elérhető helyezés, tehát a legjobb 8-ban az 5. hely, legjobb 16-ban a 9. és így tovább)
                   </li>
                   <li>
-                    Jeho/její HEMA Ratings ID<sup>5</sup>, existuje-li
+                   Hemaratings ID <sup>5</sup>, ha van-li
                   </li>
-                  <li>Klub, za který startoval(a)</li>
+                  <li>klub, amit képvisel</li>
                   <li>
-                    HEMA Ratings ID klubu<sup>6</sup>, existuje-li
+                    A klub Hemarating ID-je <sup>6</sup> , ha van -li
                   </li>
                 </ul>
               </li>
-              <li>Odkaz na výsledkovou listinu zveřejněnou organizátory, existuje-li (odkaz na stránku na OnlyFence, HEMA Scorecard, HEMAGON, post u FB události, či cokoliv jiného, z čeho jde vyčíst alespoň částečné výsledky).</li>
+              <li>Link az eredményekhez, ha van (lehet bármilyen ezzel foglalkozó felület: OnlyFence, HEMA Scorecard, HEMAGON, Facebook poszt a verseny eseményénél.</li>
             </ul>
           </li>
         </ul>
       </li>
       <li>
-        Data odešlete na
-        <a href="mailto:zegkljan{'@'}gmail.com">zegkljan{'@'}gmail.com</a> a do
-        předmětu uveďte <em>Data pro HEMA žebříček</em>.
+        Az adatokat küldd az alábbi email címre
+        <a href="mailto:zegkljan{'@'}gmail.com">zegkljan{'@'}gmail.com</a>
+        a Tárgyban <em> írd, hogy MHS vívórangsor </em>.
       </li>
       <li>
-        Vyčkejte, než data zapracuji, případně reagujte na mé doplňující dotazy.
+        Az adatokat a lehető leggyorsabban feldolgozom, és válaszolok kérdésekre.
       </li>
     </ol>`,
     supplyResultsFootnotes: `<ol>
-      <li>V případě vícedenního turnaje uveďte první den.</li>
-      <li>Divize jsou: dlouhý meč, rapír a dýka, šavle...</li>
-      <li>Kategorie jsou: muži/open, ženy, dívky do 10 let...</li>
+      <li>Többnapos verseny esetén kérlek, az első napot add meg.</li>
+      <li>Fegyvernemek: Hosszúkard (bővítésre vár)...</li>
+      <li>Kategóriák: Férfi/nyílt, női, kezdő </li>
       <li>
-        Evidujeme jen šermíře startující za české kluby, případně české
-        šermíře, kteří soutěží bez klubu.
+        Csak Magyar klubbokban vívó vagy klubb nélküli magyar vívók szerepelnek a rangsorban.
       </li>
       <li>
         Číslo v adrese stránky "profilu" daného člověka na HEMA Ratings.<br />
