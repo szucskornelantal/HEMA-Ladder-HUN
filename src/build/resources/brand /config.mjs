@@ -58,38 +58,41 @@ export const texts = {
         Csak Magyar klubbokban vívó vagy klubb nélküli magyar vívók szerepelnek a rangsorban.
       </li>
       <li>
-        Číslo v adrese stránky "profilu" daného člověka na HEMA Ratings.<br />
-        Příklad: Jan Žegklitz má stránku
-        <a href="https://hemaratings.com/fighters/details/3631/"
+       A Hemaratins ID az a szám, amely egyes vívóknak a saját oldaluk elérhetőségében található.<br />
+        Például: Szücs Kornél Antal
+        <a href="https://hemaratings.com/fighters/details/9346/"
           >https://hemaratings.com/fighters/details/<strong
-            >3631</strong
+            >9346</strong
           ></a
         >
-        a tedy jeho ID je 3631.
+        az ID tehát 9346.
       </li>
       <li>
-        Číslo v adrese stránky "profilu" daného klubu na HEMA Ratings.<br />
-        Příklad: SHŠ Krkavci mají stránku
-        <a href="https://hemaratings.com/clubs/details/362/"
-          >https://hemaratings.com/clubs/details/<strong>362</strong></a
+       Klubboknál ugyanez a helyzet:<br />
+        Példa: Kard Rendje ViSE
+        <a href="https://hemaratings.com/clubs/details/291/"
+          >https://hemaratings.com/clubs/details/<strong>291</strong></a
         >
-        a tedy jejich ID je 362.
+       az ID tehát 291.
       </li>
     </ol>`,
     coefficientTypes: {
-      foreign: 'Zahraniční turnaj',
-      foreign_25_50: 'Zahraniční účast 25-50 %',
-      foreign_50_75: 'Zahraniční účast 50-75 %',
-      foreign_75_100: 'Zahraniční účast >75 %',
-      championship: 'Mistrovství',
-      rank_1: 'První místo',
-      rank_2: 'Druhé místo',
-      rank_3: 'Třetí místo',
-      rank_4: 'Čtvrté místo',
+      foreign: 'Külföldi verseny',
+      foreign_25_50: 'Külföldi vívók aránya 25-50 %',
+      foreign_50_75: 'Külföldi vívók aránya 50-75 %',
+      foreign_75_100: 'Külföldi vívók aránya >75 %',
+      championship: 'Nagydíj',
+      rank_1: 'Első helyezés',
+      rank_2: 'Második helyezés',
+      rank_3: 'Harmadik helyezés',
+      rank_4: 'negyedik helyezés',
+      rank_5: 'Top-8',
+      rank_9: 'Top-16',
+      rank_17: 'Top-32'
     }
   },
   'en-US': {
-    appName: 'Unofficial Hungarian HEMA ladder',
+    appName: 'Hungarian HEMA ladder',
     appDescription: undefined,
     supplyResultsText: `If the ladder does not include results of a tournament you attended, please let me know like this:
     <ol>
@@ -115,7 +118,7 @@ export const texts = {
                   <li>HEMA Ratings ID of the club<sup>6</sup>, if one exists</li>
                 </ul>
               </li>
-              <li>Odkaz na výsledkovou listinu zveřejněnou organizátory, existuje-li (odkaz na stránku na OnlyFence, HEMA Scorecard, HEMAGON, post u FB události, či cokoliv jiného, z čeho jde vyčíst alespoň částečné výsledky).</li>
+              <li>Link to any relevant site for results (for example: OnlyFence, HEMA Scorecard, HEMAGON).</li>
             </ul>
           </li>
         </ul>
@@ -131,28 +134,28 @@ export const texts = {
     </ol>`,
     supplyResultsFootnotes: `<ol>
     <li>In case of multi-day tournament state the first day.</li>
-    <li>Divisions are: long sword, rapier and dagger, saber...</li>
-    <li>Categories are: men/open, women, girls under 10 years...</li>
+    <li>Divisions are: long sword...</li>
+    <li>Categories are: men/open, women .</li>
     <li>
       We record only fencers representing Hungarian clubs, or Hungarian fencers competing without any club.
     </li>
     <li>
       The number in the address of the "profile" page on HEMA Ratings of the given person.<br />
-      Example: Jan Žegklitz has page
-      <a href="https://hemaratings.com/fighters/details/3631/"
+      Example: Szücs Kornél Antal has page
+      <a href="https://hemaratings.com/fighters/details/9346/"
         >https://hemaratings.com/fighters/details/<strong
-          >3631</strong
+          >9346</strong
         ></a
       >
-      a therefore his ID is 3631.
+      a therefore his ID is 9346.
     </li>
     <li>
       The number in the address of the "profile" page of on HEMA Ratings of the given club.<br />
-      Example: SHŠ Krkavci have page
-      <a href="https://hemaratings.com/clubs/details/362/"
-        >https://hemaratings.com/clubs/details/<strong>362</strong></a
+      Example: Kard Rendje ViSE
+      <a href="https://hemaratings.com/clubs/details/291/"
+        >https://hemaratings.com/clubs/details/<strong>291</strong></a
       >
-      a therefore their ID is 362.
+      a therefore their ID is 291.
     </li>
   </ol>`,
     coefficientTypes: {
@@ -165,13 +168,16 @@ export const texts = {
       rank_2: 'Second place',
       rank_3: 'Third place',
       rank_4: 'Fourth place',
+      rank_5: 'Top-8',
+      rank_9: 'Top-16',
+      rank_17: 'Top-32'
     }
   },
 };
 
 export const config = {
-  fbLink: 'https://facebook.com/HEMAzebricekCZ',
-  enabledLocales: ['cs-CZ', 'en-US'],
-  defaultLocale: 'cs-CZ',
-  url: 'https://hemaladder.zegkljan.net',
+  fbLink: 'https://www.facebook.com/MHSLongsword',
+  enabledLocales: ['hu-HU', 'en-US'],
+  defaultLocale: 'hu-HU',
+  url: 'https://hosszukardvivas.hu/eredmenyek/ranglista/',
 };
