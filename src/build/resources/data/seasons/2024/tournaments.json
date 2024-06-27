@@ -185,6 +185,32 @@
           ]
         }
       ]
-    }
+    },
+    "2096": {
+      "name": "Black Horns Cup 2024",
+      "date": "2024-03-09", 
+      "country": "pl", 
+      "championship": false, 
+      "competitions": [ 
+        {
+          "division": "ls", 
+          "category": "open", 
+          "no_participants": 60, 
+          "results_link": "https://hemaratings.com/events/details/2096/", 
+          "results": [
+            {"fencer_id": "2759", "rank": 33 }
+          ]
+         },
+         {
+          "division": "ls", 
+          "category": "w", 
+          "no_participants": 15, 
+          "results_link": "https://hemaratings.com/events/details/2005/", 
+          "results": [
+            {"fencer_id": "14039", "rank": 9 } 
+          ]
+         }
+      ]
+    },
 }
 
